@@ -9,7 +9,7 @@ function App() {
   const [movies, setMovies] = useState([])
 
   const getMovieRequest = async () => {
-    const url = ''
+    const url = 'http://www.omdbapi.com/?s=spider&apikey=761632b2'
 
     try {
       const response = await axios.get(url);
